@@ -50,6 +50,8 @@ You can run the full stack with Docker or launch each layer manually.
    cd front-end2
    docker-compose up --build
    ```
+    (NOTE: Sometimes, an error is thrown on the first build. Running ```docker-compose-up``` again solves this.)
+
 3. The React app will be available at <http://localhost:3000>, the Flask API at <http://localhost:5000>, and PostgreSQL on port 5432 using the credentials defined in `docker-compose.yml`. Data volumes are persisted between runs.【F:front-end2/docker-compose.yml†L1-L37】
 
 ### Option 2: Run services locally

@@ -1,5 +1,8 @@
 # Visualization Tool
 
+[![Youtube Video]()](https://youtu.be/iadzYtX4ERU?si=QDffSKAHBNjHeQOR)
+
+
 Visualization Tool is a full-stack application for exploring software architecture data. It pairs a React-based front-end with a Flask API and a PostgreSQL database to load, visualize, and analyze nodes, edges, traces, and recommendations captured from complex systems.
 
 ## Repository structure
